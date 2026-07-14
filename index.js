@@ -12,10 +12,10 @@ const client = new Client({
 const TOKEN = process.env.TOKEN;
 
 // ايدي روم الإداريين
-const ADMIN_CHANNEL = "1526378668815810580";
+const ADMIN_CHANNEL = "1526420762964004947";
 
 // ايدي روم التصويت
-const VOTE_CHANNEL = "1526378730581262467";
+const VOTE_CHANNEL = "1526420547037167716";
 
 client.on("ready", () => {
     console.log(`Logged in as ${client.user.tag}`);
